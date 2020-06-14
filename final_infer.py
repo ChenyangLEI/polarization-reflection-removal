@@ -51,7 +51,9 @@ for var in tf.trainable_variables():
     print(var)
 
 
-ckpt=tf.train.get_checkpoint_state('../result/'+task)
+#ckpt=tf.train.get_checkpoint_state('../result/'+task)
+ckpt=tf.train.get_checkpoint_state('./ckpt/'+task)
+
 print("[i] contain checkpoint: ", ckpt)
 if ckpt:
     saver_restore=tf.train.Saver([var for var in tf.trainable_variables()])
