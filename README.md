@@ -21,4 +21,18 @@ After installing Anaconda, you can setup the environment simply by
 conda env create -f environment.yml
 ```
 
+## Download checkpoint and VGG model
+
+Download the ckpt and VGG model from the Google drive, put them in the correct path:
+
+VGG_Model/imagenet-vgg-verydeep-19.mat
+
+ckpt/Submission_ckpt/checkpoint
+
+
 ## Inference
+```
+python final_infer.py --task Submission_ckpt --test_dir demo
+```
+
+The results are placed in test_result
