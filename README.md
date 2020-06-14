@@ -1,5 +1,10 @@
 # CVPR2020-Polarized-Reflection-Removal-with-Perfect-Alignment
 Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in the Wild"
+
+[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf)
+|[project website](https://leichenyang.weebly.com/project-polarized.html)
+
+
 ## To do list
 - [x] Dependencey
 - [x] Inference code
@@ -9,7 +14,7 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 ## Setup
 
 ### Environment
-The code is tested on Ubuntu 18.04, Cuda 9.1.
+This code is based on tensorflow. It has been tested on Ubuntu 18.04 LTS.
 
 Anaconda is recommended: [Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-18-04)
 | [Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
