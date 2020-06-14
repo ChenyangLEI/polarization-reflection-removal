@@ -1,8 +1,8 @@
 # CVPR2020-Polarized-Reflection-Removal-with-Perfect-Alignment
 Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in the Wild"
 ## To do list
-- [] Dependencey
-- [] Inference code
+- [x] Dependencey
+- [x] Inference code
 - [] Training code
 - [] Dataset
 
@@ -35,4 +35,17 @@ ckpt/Submission_ckpt/checkpoint
 python final_infer.py --task Submission_ckpt --test_dir demo
 ```
 
-The results are placed in test_result
+The results are placed in ./test_result
+
+
+## Citation
+Please cite our paper if the code and dataset help you:
+
+@InProceedings{Lei_2020_CVPR,
+author = {Lei, Chenyang and Huang, Xuhua and Zhang, Mengdi and Yan, Qiong and Sun, Wenxiu and Chen, Qifeng},
+title = {Polarized Reflection Removal With Perfect Alignment in the Wild},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+
