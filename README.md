@@ -39,8 +39,8 @@ The results are placed in ./test_result
 
 
 ## Citation
-Please cite our paper if the code and dataset help you:
-
+If you find this work useful for your research, please cite:
+```
 @InProceedings{Lei_2020_CVPR,
 author = {Lei, Chenyang and Huang, Xuhua and Zhang, Mengdi and Yan, Qiong and Sun, Wenxiu and Chen, Qifeng},
 title = {Polarized Reflection Removal With Perfect Alignment in the Wild},
@@ -48,4 +48,4 @@ booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},
 year = {2020}
 }
-
+```
