@@ -6,7 +6,9 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 - [] Training code
 - [] Dataset
 
-## Environment
+## Setup
+
+### Environment
 The code is tested on Ubuntu 18.04, Cuda 9.1.
 
 Anaconda is recommended: 
@@ -21,7 +23,7 @@ After installing Anaconda, you can setup the environment simply by
 conda env create -f environment.yml
 ```
 
-## Download checkpoint and VGG model
+### Download checkpoint and VGG model
 
 Download the ckpt and VGG model from the Google drive, put them in the correct path:
 
@@ -49,3 +51,6 @@ month = {June},
 year = {2020}
 }
 ```
+
+## Contact
+Please contact me if there is any question (Chenyang Lei, leichenyang7@gmail.com)
