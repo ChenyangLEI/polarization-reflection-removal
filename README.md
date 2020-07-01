@@ -12,7 +12,8 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 - [] Training code
 
 ## PolarRR Dataset
-Please download the dataset on [Google Drive](https://drive.google.com/file/d/1iRHs23jSOfim-toWXqwJJ3CaTWUHSaYF/view?usp=sharing)
+Please download the dataset on [Google Drive](https://drive.google.com/file/d/1iRHs23jSOfim-toWXqwJJ3CaTWUHSaYF/view?usp=sharing), 
+there are 807 pairs of polarization images. In each pair of images, the first one is the mixed image, the second one is the reflection images.
 
 ## Setup
 
