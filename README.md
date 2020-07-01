@@ -8,8 +8,11 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 ## To do list
 - [x] Dependencey
 - [x] Inference code
+- [x] Dataset
 - [] Training code
-- [] Dataset
+
+## PolarRR Dataset
+Please download the dataset on [Google Drive](https://drive.google.com/file/d/1iRHs23jSOfim-toWXqwJJ3CaTWUHSaYF/view?usp=sharing)
 
 ## Setup
 
