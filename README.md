@@ -31,7 +31,7 @@ conda env create -f environment.yml
 
 ### Download checkpoint and VGG model
 
-Download the ckpt and VGG model from the Google drive, put them in the correct path:
+Download the ckpt and VGG model from the [Google drive](https://drive.google.com/file/d/1-asHTZWagCemCIZmMAXCAjIhtvpMaV59/view), put them in the correct path:
 
 VGG_Model/imagenet-vgg-verydeep-19.mat
 
