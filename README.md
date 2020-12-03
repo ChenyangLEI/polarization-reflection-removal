@@ -1,8 +1,7 @@
 # CVPR2020-Polarized-Reflection-Removal-with-Perfect-Alignment
 Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in the Wild"
 
-[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf)
-|[project website](https://leichenyang.weebly.com/project-polarized.html)
+[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf) | [project website](https://chenyanglei.github.io/polar_rr/index.html) 
 
 
 ## PolarRR Dataset
@@ -38,6 +37,14 @@ python final_infer.py --task Submission_ckpt --test_dir demo
 ```
 
 The results are placed in ./test_result
+
+## Key designs
+### 1. Polarization information
+To be able to relax the assumptions about the appearance of reflection, we leverage polarization that inherently exists in almost all reflected light.
+### 2. Perfect-alignment real-world data 
+We first identify the misalignment issues of existing reflection removal datasets where the collected reflection-free images are not perfectly aligned with input mixed images due to glass refraction. To address this issue, we design a new data collection pipeline called M-R, which helps us collect diverse real-world data with perfect alignment by utilizing glass in the real world.
+### 3. Two-stage framework for reflection removal
+We propose a two-stage framework for reflection removal from polarized images. Our approach firstly estimates reflection, with which it infers the transmission image secondly. This framework helps us improve 2dB PSNR on our real-world dataset.
 
 
 ## Citation
