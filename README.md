@@ -3,10 +3,26 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf) | [project website](https://chenyanglei.github.io/polar_rr/index.html) 
 
+## Fast Demo (TL;DR)
+```
+git clone https://github.com/ChenyangLEI/polarization-reflection-removal
+cd polarization-reflection-removal
+conda env create -f environment.yml
+conda activate PolarRR
+bash download.sh
+mkdir result
+mv Submission_ckpt result
+python final_infer.py --task Submission_ckpt --test_dir demo
+```
+The results are placed in ./test_result
+
 
 ## PolarRR Dataset
 Please download the dataset on [Google Drive](https://drive.google.com/file/d/1iRHs23jSOfim-toWXqwJJ3CaTWUHSaYF/view?usp=sharing), 
 there are 807 pairs of polarization images. In each pair of images, the first one is the mixed image, the second one is the reflection images.
+```
+bash download_data.sh
+```
 
 ## Setup
 

@@ -10,11 +10,9 @@ from glob import glob
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--task", default="pre-trained",help="path to folder containing the model")
-parser.add_argument("--test_dir", default="../data/Submission_MMR/png_raw/test/Mixed", help="path to test folder")
-parser.add_argument("--output_dir", default="../result/", help="path to test folder")
-parser.add_argument("--is_pol", default=1,type=int, help="choose the loss type")
-parser.add_argument("--use_gpu", default=0,type=int, help="choose the loss type")
+parser.add_argument("--task", default="Submission_ckpt",help="path to folder containing the model")
+parser.add_argument("--test_dir", default="./polar_rr_dataset/test/Mixed", help="path to test folder")
+parser.add_argument("--use_gpu", default=1,type=int, help="choose the gpu")
 ARGS = parser.parse_args()
 task=ARGS.task
 print(ARGS)
@@ -51,9 +49,7 @@ for var in tf.trainable_variables():
     print(var)
 
 
-#ckpt=tf.train.get_checkpoint_state('../result/'+task)
-ckpt=tf.train.get_checkpoint_state('./ckpt/'+task)
-
+ckpt=tf.train.get_checkpoint_state('./result/'+task)
 print("[i] contain checkpoint: ", ckpt)
 if ckpt:
     saver_restore=tf.train.Saver([var for var in tf.trainable_variables()])
