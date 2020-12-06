@@ -20,7 +20,7 @@ The results are placed in ./test_result
 
 
 ## PolarRR Dataset
-Please download the dataset on [Google Drive](https://drive.google.com/file/d/1iRHs23jSOfim-toWXqwJJ3CaTWUHSaYF/view?usp=sharing), 
+Please download the dataset on [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/cleiaa_connect_ust_hk/EdS6M-5DfW1NrtDLdcIuQ80B4dh4WRFffqtqVwMcoQLKBg?e=A9HhcV), 
 there are 807 pairs of polarization images. In each pair of images, the first one is the mixed image, the second one is the reflection images.
 ```
 bash download_data.sh
@@ -42,11 +42,12 @@ conda env create -f environment.yml
 
 ### Download checkpoint and VGG model
 
-Download the ckpt and VGG model from the [Google drive](https://drive.google.com/file/d/1-asHTZWagCemCIZmMAXCAjIhtvpMaV59/view), put them in the correct path:
+Download the ckpt and VGG model by
+```
+bash download.sh
+```
 
-VGG_Model/imagenet-vgg-verydeep-19.mat
 
-ckpt/Submission_ckpt/checkpoint
 
 
 ## Inference
