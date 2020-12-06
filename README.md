@@ -3,7 +3,7 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf) | [project website](https://chenyanglei.github.io/polar_rr/index.html) 
 
-<img src="example/IMG_0287.png" height="140px"/> <img src="example/IMG_0287_1t.png" height="140px"/>
+<img src="example/IMG_0058_input.jpg" height="140px"/> <img src="example/IMG_0058_ours.jpg" height="140px"/>
 
 ## Fast Demo (TL;DR)
 ```
