@@ -52,7 +52,7 @@ bash download.sh
 
 ## Inference
 ```
-python final_infer.py --task Submission_ckpt --test_dir demo
+python test.py --task Submission_ckpt --test_dir demo
 ```
 
 The results are placed in ./test_result
