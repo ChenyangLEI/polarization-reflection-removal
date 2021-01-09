@@ -14,7 +14,7 @@ conda activate PolarRR
 bash download.sh
 mkdir result
 mv Submission_ckpt result
-python final_infer.py --task Submission_ckpt --test_dir demo
+python test.py --task Submission_ckpt --test_dir demo
 ```
 The results are placed in ./test_result
 
