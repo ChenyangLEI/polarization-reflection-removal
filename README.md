@@ -1,7 +1,7 @@
 # CVPR2020-Polarized-Reflection-Removal-with-Perfect-Alignment
 Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in the Wild"
 
-[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf) | [project website](https://chenyanglei.github.io/polar_rr/index.html) 
+[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lei_Polarized_Reflection_Removal_With_Perfect_Alignment_in_the_Wild_CVPR_2020_paper.pdf) | [project website](https://chenyanglei.github.io/polar_rr/index.html) | [Other datasets](https://alexzhao-hugga.github.io/Real-World-Reflection-Removal/) 
 
 <img src="example/IMG_0058_input.jpg" height="140px"/> <img src="example/IMG_0058_ours.jpg" height="140px"/>
 
